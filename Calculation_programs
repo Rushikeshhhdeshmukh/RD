@@ -1,0 +1,12 @@
+force=int(input("Enter the value of force: "))
+length=int(input("Enter the value of length: "))
+breadth=int(input("Enter the value of breadth: "))
+area=length*breadth
+stress=force/area
+print(stress)
+
+
+original_length=int(input("Enter the original length"))
+changed_length=int(input("Enter the changed length"))
+strain=changed_length/original_length
+print(strain)
